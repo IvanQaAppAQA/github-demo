@@ -1,2 +1,3 @@
 file
 some text
+master text
