@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Hello {
+public class Main {
 
     public enum Season {
         AUTUMN,
@@ -11,7 +11,7 @@ public class Hello {
         WINTER
     }
 
-    public static void main(String[] args) throws IOException {
+    public static void Main(String[] args) throws IOException {
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
