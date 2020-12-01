@@ -11,7 +11,7 @@ public class Main {
         WINTER
     }
 
-    public static void Main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
@@ -25,7 +25,7 @@ public class Main {
             case "January":
             case "February":
                 season = Season.WINTER;
-            System.out.println(season);
+                System.out.println(season);
                 break;
             case "March":
             case "April":
